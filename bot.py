@@ -85,13 +85,6 @@ async def start():
     await idle()
 
 if __name__ == "__main__":
-    try:
-        # Check if an event loop is already running
-        loop = asyncio.get_running_loop()
-    except RuntimeError:  # If no event loop is running, create a new one
-        loop = asyncio.new_event_loop()
-        asyncio.set_event_loop(loop)
-
-    # Run the start function on the current event loop
-    loop.create_task(start())
-    loop.run_forever()
+    # Using pyrogram's run method to start the bot
+    # This takes care of the event loop automatically
+    TechVJBot.run(start())
