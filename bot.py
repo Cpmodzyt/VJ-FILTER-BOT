@@ -85,7 +85,13 @@ async def start():
     await idle()
 
 if __name__ == "__main__":
-    # Directly run start() without asyncio.run() because Pyrogram already runs an event loop
-    loop = asyncio.get_event_loop()
+    try:
+        # Check if an event loop is already running
+        loop = asyncio.get_running_loop()
+    except RuntimeError:  # If no event loop is running, create a new one
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+
+    # Run the start function on the current event loop
     loop.create_task(start())
     loop.run_forever()
