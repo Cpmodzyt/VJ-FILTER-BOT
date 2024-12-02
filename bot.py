@@ -85,5 +85,7 @@ async def start():
     await idle()
 
 if __name__ == "__main__":
-    # Run the bot by calling the start function
-    asyncio.run(start())
+    # Directly run start() without asyncio.run() because Pyrogram already runs an event loop
+    loop = asyncio.get_event_loop()
+    loop.create_task(start())
+    loop.run_forever()
