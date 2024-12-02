@@ -1,6 +1,6 @@
-# Don't Remove Credit @VJ_Botz
+# Don't Remove Credit @Interworldmx
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Itzmecp
 
 from pyrogram import Client, filters 
 from database.users_chats_db import db

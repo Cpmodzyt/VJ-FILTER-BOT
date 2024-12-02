@@ -1,48 +1,40 @@
-# Don't Remove Credit @VJ_Botz
+# Don't Remove Credit @Interworldmx
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Itzmecp
 
 
 class script(object):
-    START_TXT = """<b><blockquote>Hᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
+    START_TXT = """<b>✨ Hello {},
+
+<blockquote>My Name Is <a href=https://t.me/InterWorldMxbot>MoviesX</a></blockquote>
+
+I Can Provide Movie For You Just Add Me In Your Group Or Join Our Group !</b>"""
+
+    CLONE_START_TXT = """<b><blockquote>Hello {}, my name <a href=https://t.me/{}>{}</a></blockquote>
+
+I am advance and powerful autofilter bot with amazing features just type what you want then see my power 💘</b>"""
     
-ɪ ᴀᴍ【 ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ 】ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ+└ᴀᴡᴇꜱᴏᴍᴇ ꜰɪʟᴛᴇʀ┘+├ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ┤+☞ᴍᴀɴᴜᴀʟ ꜰɪᴛᴇʀ☜ ᴀɴᴅ ᢵᴄᴜꜱᴛᴏᴍɪᴢᴇᴅ ꜱʜᴏʀᴛɴᴇʀ ꜱᴜᴘᴘᴏʀᴛᢴ ᢾᴀɴᴅ ʙᴇꜱᴛ ᴜɪ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇᢿ</b>"""
+    HELP_TXT = """<b>Hey {} Here Is The Help For My Commands.</b>"""
 
-    CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
-    
-ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ᴀɴᴅ ᴘᴏᴡᴇʀғᴜʟʟ ᴀᴜᴛᴏғɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs ᴊᴜsᴛ ᴛʏᴘᴇ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 💘</b>"""
-    
-    HELP_TXT = """<b>Hᴇʏ {}
-Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
+    ABOUT_TXT = """<b>‣ Developer: Itzmecp & Mr Buddy
+‣ Coded On: Python/Pyrogram
+‣ My Database: Mongo-DB
+‣ My Server: Anywhere
+‣ My Version: MoviesX v5.0.1</b>"""
 
-    ABOUT_TXT = """<b><blockquote>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟</blockquote>
-    
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
-‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/kingvj01'>ᴛᴇᴄʜ ᴠᴊ</a> 
-‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
-‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
-‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>ʜᴇʀᴏᴋᴜ</a> 
-‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
+    CLONE_ABOUT_TXT = """<b>‣ Developer: Itzmecp & Mr Buddy
+‣ Coded On: Python/Pyrogram
+‣ My Database: Mongo-DB
+‣ My Server: Anywhere
+‣ My Version: MoviesX v5.0.1</b>"""
 
-    CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
-    
-‣ ᴍʏ ɴᴀᴍᴇ : {}
-‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
-‣ ᴄʟᴏɴᴇᴅ ғʀᴏᴍ : <a href=https://t.me/{}>{}</a>
-‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
-‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
-‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
+    CLONE_TXT = """<b>🌟 <u>Clone Mode</u>
 
-    CLONE_TXT = """<b>🌟 <u>CLONE MODE</u>
+‣You Create Your Own Clone Bot By /clone Command
+‣You Can Broadcast In Your Clone Bots
+‣And Million Of Files Index Already No Need To Add Any File
 
-- Yᴏᴜ Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ Bʏ /clone Cᴏᴍᴍᴀɴᴅ 
-- Yᴏᴜ Cᴀɴ Bʀᴏᴀᴅᴄᴀsᴛ Iɴ Yᴏᴜʀ Cʟᴏɴᴇ Bᴏᴛs
-- Aɴᴅ Mɪʟʟɪᴏɴ Oғ Fɪʟᴇs Iɴᴅᴇx Aʟʀᴇᴀᴅʏ Nᴏ Nᴇᴇᴅ Tᴏ Aᴅᴅ Aɴʏ Fɪʟᴇ
-
-👨‍💻 Cᴏᴍᴍᴀɴᴅ : /clone</b>"""
+👨‍💻 Command: /clone</b>"""
 
     SUBSCRIPTION_TXT = """
 <b>ʀᴇғᴇʀʀᴇ ʏᴏᴜʀ ʟɪɴᴋ ᴛᴏ ʏᴏᴜʀ ғʀɪᴇɴᴅs, ғᴀᴍɪʟʏ, ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ ғᴏʀ {}
@@ -67,9 +59,9 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /del - <code>ᴅᴇʟᴇᴛᴇ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ꜰɪʟᴛᴇʀ ɪɴ ᴀ ᴄʜᴀᴛ</code>
 • /delall - <code>ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ᴡʜᴏʟᴇ ꜰɪʟᴛᴇʀꜱ ɪɴ ᴀ ᴄʜᴀᴛ (ᴄʜᴀᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)</code>"""
 
-    # Don't Remove Credit @VJ_Botz
+    # Don't Remove Credit @Interworldmx
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Itzmecp
 
     BUTTON_TXT = """ʜᴇʟᴘ: <b>ʙᴜᴛᴛᴏɴꜱ</b>
 - ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴꜱ.
@@ -78,7 +70,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/vjupdates2/3)</code>
+<code>[Button Text](buttonurl:https://t.me/interworldmx)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -104,16 +96,13 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /disconnect  - <code>ᴅɪꜱᴄᴏɴɴᴇᴄᴛ ꜰʀᴏᴍ ᴀ ᴄʜᴀᴛ</code>
 • /connections - <code>ʟɪꜱᴛ ᴀʟʟ ʏᴏᴜʀ ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ</code>"""
 
-    # Don't Remove Credit @VJ_Botz
+    # Don't Remove Credit @Interworldmx
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Itzmecp
 
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
 my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=https://t.me/KingVj01>☢VJ☢</a></b>
-  
- <b>✯ Join here : <a href=https://t.me/vj_bots>☢Join my updateds☢</a></b> 
   
  ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
  code> 
@@ -253,23 +242,16 @@ Nᴀᴍᴇ - {}"""
 <b> Size ⚙️: {file_size}</b>""" 
 
     IMDB_TEMPLATE_TXT = """
-<b>Query: {qurey}
-
-IMDb Data:
-
-<b>🏷 Title</b>: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
-☀️ Languages : <code>{languages}</code>
-📀 RunTime: {runtime} Minutes
-📆 Release Info : {release_date}
-🎛 Countries : <code>{countries}</code>
-
-
-⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
-
-Requested by : {message.from_user.mention}</b>"""
+<b>☘️ Title: {title} | {year}</b><br>
+📆 <b>Release Date ➜</b> {release_date}<br>
+⭐️ <b>Rating ➜</b> {rating} / 10<br>
+⏰ <b>Runtime ➜</b> {runtime} minutes<br>
+🌼 <b>Languages ➜</b> #{languages}<br>
+🎭 <b>Director ➜</b> {director}<br>
+🌎 <b>Country ➜</b> {countries}<br>
+📕 <b>Genres ➜</b> {genres}<br><br>
+📖️ <b>Story ➜</b> {plot}<br><br>
+<blockquote><a href="https://t.me/InterWorldmx">#InterWorld</a> | <a href="https://t.me/InterWorldMXbot">@MoviesX</a></blockquote>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
@@ -522,7 +504,7 @@ Hey <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a>
 
  How and what to do
 
- Step 1: Administer this VJ-FILTER-BOT bot to your group
+ Step 1: Administer this bot to your group
 
  Step 2: Add your website and API
 
@@ -725,15 +707,7 @@ Also your tutorial will be Added Your Group..."""
 
 
     DEVELOPER_TXT = """
-special Thanks To ❤️ Developers -
-
--Dev 1 [Owner of this bot ]<a href='https://t.me/KingVj01'>VJ</a>
-
--Dev 2 <a href='https://t.me/vjbots_bot'>VJ</a>
-
--Dev 3 <a href='https://t.me/vj_botz>VJ Botz</a>
-
-- Dev 4 <a href='https://t.me/vj_bots'>TEAM VJ</a>
+Maintained by @Itzmecp.
 """
 
     RENAME_TXT = """
@@ -763,9 +737,9 @@ Example:- /set_caption 📕 File Name: {filename}
 /stream - ɢᴇᴛ sᴛʀᴇᴀᴍᴀʙʟᴇ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅᴀʙʟᴇ ʟɪɴᴋ ᴏғ ᴀɴʏ ғɪʟᴇ</b>"""
 
 
-# Don't Remove Credit @VJ_Botz
+# Don't Remove Credit @Interworldmx
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Itzmecp
 
 
     

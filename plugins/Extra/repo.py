@@ -1,6 +1,6 @@
-# Don't Remove Credit @VJ_Botz
+# Don't Remove Credit @Interworldmx
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Itzmecp
 
 
 import logging
@@ -35,7 +35,7 @@ async def git(bot, message):
 
 <b>Open Issues :</b> <i>{qw.get("open_issues")}</i>
 
-<b>Powered by :</b> @VJ_Botz
+<b>Powered by :</b> @Interworldmx
 
 """
         if qw.get("description"):

@@ -1,6 +1,6 @@
-# Don't Remove Credit @VJ_Botz
+# Don't Remove Credit @Interworldmx
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Itzmecp
 
 
 from pyrogram import Client, filters
@@ -24,9 +24,9 @@ async def sng(bot, message):
         await mee.delete()
         try:
             await mee.delete()
-            await bot.send_message(chat_id, text = rpl, reply_to_message_id = message.id, reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs ", url = f"t.me/vj_botz")]]))
+            await bot.send_message(chat_id, text = rpl, reply_to_message_id = message.id, reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs ", url = f"t.me/Interworldmx")]]))
         except Exception as e:                            
-            await vj.reply_text(f"I Can't Find A Song With `{song}`", quote = True, reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url = f"t.me/vj_botz")]]))
+            await vj.reply_text(f"I Can't Find A Song With `{song}`", quote = True, reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url = f"t.me/Interworldmx")]]))
     else:
         await vj.reply_text("Send me only text Buddy.")
 

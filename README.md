@@ -33,7 +33,7 @@
 - [x] Custom Tutorial Button
 - [x] Bot Pm File Auto Delete 
 
-Join My <a href='https://telegram.dog/vj_botz'>Update Channel</a> For More Update Regarding Repo.</b>
+Join My <a href='https://telegram.dog/Interworldmx'>Update Channel</a> For More Update Regarding Repo.</b>
 
 ### How To Deploy : [Video Tutorial](https://youtu.be/J5tiWdc_AWM)
 
@@ -190,7 +190,7 @@ Edit info.py with variables as given below then run bot
 
 ## Note 🏷️
  
-[![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/KingVJ01) 
+[![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/Itzmecp) 
 
 <b>Fork The Repo And Edit As Per Your Needs.</b>
 
