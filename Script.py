@@ -241,17 +241,18 @@ Nᴀᴍᴇ - {}"""
 
 <b> Size ⚙️: {file_size}</b>""" 
 
-    IMDB_TEMPLATE_TXT = """
-<b>☘️ Title: {title} | {year}</b><br>
-📆 <b>Release Date ➜</b> {release_date}<br>
-⭐️ <b>Rating ➜</b> {rating} / 10<br>
-⏰ <b>Runtime ➜</b> {runtime} minutes<br>
-🌼 <b>Languages ➜</b> #{languages}<br>
-🎭 <b>Director ➜</b> {director}<br>
-🌎 <b>Country ➜</b> {countries}<br>
-📕 <b>Genres ➜</b> {genres}<br><br>
-📖️ <b>Story ➜</b> {plot}<br><br>
-<blockquote><a href="https://t.me/InterWorldmx">#InterWorld</a> | <a href="https://t.me/InterWorldMXbot">@MoviesX</a></blockquote>"""
+    IMDB_TEMPLATE_TXT = """<b>☘️ Title: {title} | {year}
+📆 Release Date ➜ {release_date}
+⭐️ <b>Rating ➜ {rating} / 10
+⏰ <b>Runtime ➜ {runtime} minutes
+🌼 <b>Languages ➜ #{languages}
+🎭 <b>Director ➜ {director}
+🌎 <b>Country ➜ {countries}
+📕 <b>Genres ➜ {genres}
+
+📖️ <b>Story ➜ {plot}
+
+<blockquote><a href="https://t.me/InterWorldmx">#InterWorld</a> | <a href="https://t.me/InterWorldMXbot">@MoviesX</a></blockquote></b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
