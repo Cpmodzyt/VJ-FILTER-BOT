@@ -29,7 +29,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
             InlineKeyboardButton('➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ],[_bot_disscussion
+        ],[
             InlineKeyboardButton('🌸 Support Group', url="https://t.me/interworld_Request"),
             InlineKeyboardButton('📚 Movie Channel', url='https://t.me/Interworldmx')
         ],[
